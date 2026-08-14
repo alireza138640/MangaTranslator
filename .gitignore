@@ -1,0 +1,7 @@
+venv/
+ocr_venv/
+__pycache__/
+*.pyc
+.paddlex/
+*.log
+translation_cache.json

@@ -1,0 +1,162 @@
+QWidget {
+
+    background-color: #121212;
+
+    color: #eeeeee;
+
+    font-size: 14px;
+
+}
+
+
+/* Buttons */
+
+QPushButton {
+
+    background-color: #242424;
+
+    color: white;
+
+    border-radius: 8px;
+
+    padding: 6px;
+
+    border: none;
+
+}
+
+
+QPushButton:hover {
+
+    background-color: #2F80FF;
+
+}
+
+
+QPushButton:pressed {
+
+    background-color: #1F5CCC;
+
+}
+
+
+
+/* Labels */
+
+QLabel {
+
+    color: #eeeeee;
+
+}
+
+
+
+/* Scroll Area */
+
+QScrollArea {
+
+    border: none;
+
+}
+
+
+
+/* Scroll Bar */
+
+QScrollBar:vertical {
+
+    background: transparent;
+
+    width: 12px;
+
+    margin: 4px;
+
+}
+
+
+
+QScrollBar::handle:vertical {
+
+    background: #555555;
+
+    border-radius: 6px;
+
+    min-height: 35px;
+
+}
+
+
+
+QScrollBar::handle:vertical:hover {
+
+    background: #2F80FF;
+
+}
+
+
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+
+    background: transparent;
+
+}
+
+
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+
+    height: 0px;
+
+}
+
+
+
+QScrollBar:horizontal {
+
+    background: transparent;
+
+    height: 12px;
+
+    margin: 4px;
+
+}
+
+
+
+QScrollBar::handle:horizontal {
+
+    background: #555555;
+
+    border-radius: 6px;
+
+    min-width: 35px;
+
+}
+
+
+
+QScrollBar::handle:horizontal:hover {
+
+    background: #2F80FF;
+
+}
+
+
+
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+
+    background: transparent;
+
+}
+
+
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+
+    width: 0px;
+
+}
